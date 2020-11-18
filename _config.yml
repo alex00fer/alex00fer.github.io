@@ -1,0 +1,39 @@
+# Site settings
+title: Alejandro Fernández
+description: 'Passionate about computers and programming. I love solving problems and learning new technologies. I am very creative and I always keep innovating and exploring new paths to grow as a developer.'
+url: 'https://alex00fer.github.io'
+baseurl: ''
+
+author:
+  name: 'Alejandro Fernández'
+  email: alexdevfs@gmail.com
+  github_username:  alex00fer
+  linkedin_username:  alejandrofernandezs
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
