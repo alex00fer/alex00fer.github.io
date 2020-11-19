@@ -87,7 +87,7 @@ pre.highlight code,
     font-family: "Raleway", sans-serif;
   }
 
-  p-small {
+  span {
     color: #999999;
     font-weight: normal;
   }
@@ -97,7 +97,7 @@ pre.highlight code,
     font-weight: normal;
     font-family: "Raleway", sans-serif;
   }
-
+  /*
   li > ul {
     display: block;
     padding: 0;
@@ -109,8 +109,8 @@ pre.highlight code,
     display: inline;
     color: #999999;
   }
-
-  li > ul > li:not(:first-child):before {
+  */
+  li > span:before {
     content: " — ";
   }
 }
