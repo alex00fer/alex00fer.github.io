@@ -16,6 +16,9 @@ robots: noindex
           {% endif %}
         </h2>
         <p class="excerpt">{{ post.excerpt | strip_html }}&hellip;</p>
+        {% if post.image %}
+          <!-- <img height="180" src="{{ site.baseurl }}/images/posts/{{ post.image }}"> -->
+        {% endif %}
         <div class="post-list__meta">
             <time datetime="{{ post.date | date: "%Y-%m-%d %H:%M" }}" class="post-list__meta--date date">{{ post.date | date: "%b %Y" }}</time>
             {% if post.tags.size > 0 %}

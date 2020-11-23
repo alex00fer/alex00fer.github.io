@@ -1,0 +1,7 @@
+---
+title:  "EHttpJ embedded HTTP server in Java"
+ext-url: "https://github.com/alex00fer/ehttpj-java-server"
+date:   2020-11-01 15:04:23
+tags: [Java, Web]
+---
+EHttpJ is a Java library that provides a flexible, modular and feature rich embedded HTTP server, with the added possibility of generating HTML directly from Java.

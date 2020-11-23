@@ -1,0 +1,7 @@
+---
+title:  "The Games Map Web"
+ext-url: "https://github.com/alex00fer/the-games-map-web"
+date:   2019-11-01 12:00:00
+tags: [Web]
+---
+A dynamic generated web that takes games data from an API and shows the info to the user with a beautiful responsive design
