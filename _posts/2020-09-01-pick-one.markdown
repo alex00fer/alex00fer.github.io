@@ -1,0 +1,7 @@
+---
+title:  "Pick-One in PHP and MySQL"
+ext-url: "https://github.com/alex00fer/pick-one-php"
+date:   2020-11-01 12:00:00
+tags: [PHP, SQL, Web]
+---
+PHP+MySQL web app for discovering what images from a collection are picked the most
